@@ -20,6 +20,7 @@ public class Main {
         Node second = new Node(2, third);
         Node first = new Node(1, second);
 
+
         System.out.println("Original List: " + first);
         System.out.println("Reversed List: " + ReverseLinkedList.reverseLL(first));
 
